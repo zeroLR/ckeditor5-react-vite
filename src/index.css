@@ -49,3 +49,20 @@ code {
   max-height: 600px;
 }
 
+@media screen and (max-width:1000px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .ck-editor{
+    max-width: 100%;
+  }
+
+  .html-preview-container{
+    width: 90%;
+  }
+  
+  .html-preview{
+    line-break: anywhere;
+  }
+}
